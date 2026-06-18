@@ -12,10 +12,11 @@ int main(){
     if (scanf("%d", &n) != 1){
         printf("error");
     }
-    if (n < 1){
+    else if (n < 1){
         printf("error");
     }
     else{
         printf("%.2f", (float) sum(n));
     }
+    return 0;
 }
