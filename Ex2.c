@@ -9,7 +9,7 @@ void reverse(){
     }
     int left = 0;
     int right = n - 1;
-    while (left <= right){
+    while (left < right){
         int tmp = nums[left];
         nums[left] = nums[right];
         nums[right] = tmp;
@@ -24,4 +24,5 @@ void reverse(){
 
 int main(){
     reverse();
+    return 0;
 }
